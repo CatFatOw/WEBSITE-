@@ -3,23 +3,33 @@
 
 <head>
   <title>Website Page Design</title>
+  <link rel="stylesheet" href="style.css">
+
+
+
+
 </head>
 
 <body>
-  <div class="hero">
-    <div class="parallax-background"></div>
-    <div class="navbar">
-      <a href="https://idahofallstigers.org/">
-        <img src="./Images/IF.png" class="logo">
-      </a>
-      <a href="index.html"><button type="button"> Go Back Home </button></a>
-    </div>
-    <div class="content">
-      <h1>Accomplishments</h1>
-    </div>
+  <div class="area">
+    <div class="hero">
+      <div class="parallax-background"></div>
+      <div class="navbar">
+        <a href="https://idahofallstigers.org/">
+          <img src="./Images/IF.png" class="logo">
+        </a>
+        <a href="index.html"><button type="button"> Go Back Home </button></a>
+        <a href="take a tour.html"><button type="button"> Go Back To My Hobbies </button></a>
+      </div>
+      <br>
 
-    <div class="content-container">
-      <div class="c2">
+      <div class="content">
+        <h1>Accomplishments</h1>
+      </div>
+
+
+      <div class="content-container">
+
         <p>
         <ul>
           <li color="#000000"><b>Academics</b></li>
@@ -28,10 +38,15 @@
           <ul>
             <li><big>Math</big></li>
             <p>Achieved 5 on Ap Calculus AB test</p>
+            <br>
             <p>Calculus/math TA for the school year of 2023-2024</p>
+            <br>
             <p>Math Tutor at CEI</p>
             <br>
-            <li><small><b>Chemistry</b></small></li>
+            <p>College Board Ap Scholar Award</p>
+            <br>
+            <p>First place in MathCounts tournament (8th grade) in regionals</p>
+            <li><big>Chemistry</big></li>
             <p>Achieved 4 on Ap Chemistry test</p>
           </ul>
           </p>
@@ -39,28 +54,43 @@
         </p>
         <p>
         <ul>
-          <li color="#000000"><b>Debate</b></li>
+          <li color="#000000"><b>Extracurriculars</b></li>
+
+          <li color="#000000"><big>Debate</big></li>
 
           <p>Qualified to NSDA Debate Nationals 9th grade year in Congressional Debate (Senate)</p>
+          <br>
           <p>10th in Idaho for State Congressional Debate</p>
           <br>
-          <li color="#000000"><b>Community Service</b></li>
+          <p>First place in Congressional Debate for Trojan War Tournament</p>
+          <br>
+          <p>Participated in Harvard's Congressional Debate Summar Camp</p>
+          <br>
+          <p>Third place (freshman and sophmore year) in Gate City Invitational Tournament in Infomational Speech</p>
+          <br>
+          <li color="#000000"><big>Community Service</big></li>
+          <p>National Honor Society Member</p>
+          <br>
+          <p>Calculus TA to Highschool Teacher in 2023-2024</p>
+          <br>
 
-          <p color="#000000">From Newton to Euler, I am currently enjoying learning Calculus 1, and I am looking
-            forward to learning
-            Calculus 2.</p>
+          <p>Volunteering at CEI as a Math Tutor</p>
+          <br>
+          <p>Participated in Community Youth in Action (CYA) events, such as selling and setting up fireworks stands.
+          </p>
 
 
         </ul>
         </p>
 
-      </div>
 
-      </ul>
+        </ul>
+      </div>
     </div>
   </div>
   </div>
   </div>
+
 
   <div class="side-bar">
     <img src="./Images/menu.png" class="menu">
@@ -74,6 +104,22 @@
       <img src="./Images/info.png">
     </div>
   </div>
+  <ul class="circles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  </div>
+
+
+
   <style>
     b {
       font-size: 50px;
@@ -90,9 +136,9 @@
     .content-container {
       position: relative;
       width: 100%;
-      height: 200vh;
       padding-top: 120px;
       z-index: 2;
+      text-align: center;
     }
 
     p {
@@ -171,10 +217,10 @@
     }
 
     button {
-      color: #fbfcfd;
+      color: #000000;
       padding: 10px 25px;
       background: transparent;
-      border: 1px solid #fff;
+      border: 1px solid #000000;
       border-radius: 20px;
       outline: none;
       cursor: pointer;
@@ -182,10 +228,11 @@
 
     .content {
       color: #fbfcfd;
-      position: absolute;
-      top: 20%;
+      align-items: center;
+      justify-content: center;
+      top: 5%;
       left: 8%;
-      transform: translateY(-50%);
+      transform: translateY(-40%);
       z-index: 2;
     }
 
@@ -193,9 +240,7 @@
       font-size: 80px;
       margin: 5px 0 15px;
       line-height: 60px;
-      position: relative;
-      top: -150px;
-      left: 500px;
+      text-align: center;
       color: #000000;
       opacity: 1.5;
     }
@@ -213,6 +258,9 @@
     .useful-links img {
       width: 25px;
       margin: 5px auto;
+Achieved 4 on Ap Chemistry test
+
+
       cursor: pointer;
     }
 
