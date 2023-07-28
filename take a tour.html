@@ -4,10 +4,17 @@
 <head>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </head>
+<link rel="stylesheet" href="s2.css">
 <title>Website Page Design</title>
 </head>
 
 <body>
+  </div>
+  <div class="bg"></div>
+  <div class="bg bg2"></div>
+  <div class="bg bg3"></div>
+  <div class="content">
+  </div>
   <div class="hero">
     <div class="parallax-background"></div>
     <div class="navbar">
@@ -25,56 +32,94 @@
         <h2><b>Hobbies</b></h2>
         <div class="card">
           <ul>
-            <li color="#ffffff">Tennis</li>
+            <li color="#ffffff"><b>Tennis</b></li>
 
-            <p color="#ffffff">I am very passionate about Tennis. I ardently enjoy playing matches while looking at
-              Tennis
-              professionals. Currently Varsity in Highschool Tennis.</p>
+            <p color="#ffffff">I am very passionate about Tennis. I ardently enjoy playing matches as while as
+              practicing. Currently Varsity in Highschool Tennis.</p>
+            <br>
+            <p>Currently using the Prostaff v13 97</p>
+            <br>
+            <p><b>USTA profile:</b> <a
+                href="https://www.usta.com/en/home/play/player-search/profile.html#uaid=2018710782&tab=about"> USTA
+                Player Michael Wu</a></p>
+
+            <img src="Tennis racket 1.png" alt="Image not available" width="200" height="200">
+
           </ul>
           <ul>
-            <li color="#ffffff">Mathematics</li>
+            <li color="#ffffff"><b>Model Airplane Flying/Aviation</b></li>
+            <p>I enjoy flying RC planes and experiencing the thrills of flying. </p>
+            <br>
+            <p>I am currently flying the Apprentice s15e. The plane is a really good trainer and is overall easy to fly
+              with.</p>
+            <br>
+            <img src="plane.png">
+          </ul>
+          <ul>
+            <li color="#ffffff"><b>Mathematics</b></li>
 
             <p color="#ffffff">I am currently enjoying learning Calculus 1, and I am looking
               forward to learning
               Calculus 2.</p>
-            <ul>
-              <li>Derivatives:</li>
-              <p>\[ f(x) = 3x e^{4x} \]</p>
-              <p>\[ f'(x) = 12x e^{4x} + 3e^{4x} \]</p>
-              
-            </ul>
+            <br>
+            <p> <b><big>Examples:</big></b></p>
+
+            <big>Derivatives:</big>
+            <p>\[ f(x) = 3x e^{4x} \]</p>
+            <p>\[ f'(x) = 12x e^{4x} + 3e^{4x} \]</p>
+            <br>
+            <big>Integration</big>
+            <p>\[ \int 4x \cos(2 - 3x) \, dx \]</p>
+            <p>\[ -\frac{4x}{3}\ sin(2-3x) + \int \frac{4}{3} sin(2-3x)dx \]</p>
+            <p>\[ -\frac{4x}{3}sin(2-3x) + \frac{4}{9}cos(2-3x) + c \]</p>
+            <big>Integration (video)</big>
 
             <div class="vt">
-              <iframe width="315" height="315" src="https://www.youtube.com/embed/x9uo8-AW_bA"
+              <iframe width="300" height="315" src="https://www.youtube.com/embed/x9uo8-AW_bA"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
+              <br>
+              <big>L'Hôpital (Limits)</big>
+              <p>\[ \lim_{{x \to \infty}} \frac{\ln(3x)}{x^2} \]</p>
+              <p>\[ \lim_{{x \to \infty}} \frac{\frac{3}{3x}}{2x} = 0 \]</p>
+              <br>
+              <big>Problem 2</big>
+              <p> \[ \lim_{{x \to \infty}} (e^x+x)^{\frac{1}{x}} \]</p>
+              <p>Plug in \[\infty\] and we get \[\infty^0\]. Therefore, needs to change to satisfy \[\frac{0}{0}\]
+                or
+                \[\frac{\infty}{\infty}\]</p>
+              <p>\[ y = (e^x + x)^{\frac{1}{x}} \] </p>
+              <p> \[ln(y) = \frac{1}{x}\ ln(e^x + x) \]</p>
+              <p> \[ \lim_{{x \to \infty}} ln(y) = \lim_{{x \to \infty}} \frac{ln(e^x + x)}{x} = \lim_{{x \to \infty}}
+                \frac{e^x + 1}{e^x + x} = \lim_{{x \to \infty}} \frac{e^x}{e^x} = 1 \]</p>
+              <p>
+                \[ \lim_{{x \to \infty}} \ln(x) = 1,\quad \text{Therefore,} y = e^{\ln(y)} \quad \text{so } y =
+                e^{\lim_{{x \to \infty}} \ln(y)} = e \]
+              </p>
+              <br>
+              <big>Limit Intro Video</big>
+              <br>
+
+              <iframe width="300" height="315" src="https://www.youtube.com/embed/xENCPi9TW_Y"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
             </div>
           </ul>
           <ul>
-            <li color="#ffffff">Accomplishments</li>
+            <li color="#ffffff"><b>Accomplishments</b></li>
 
             <p color="#ffffff;">Click <a href="awards.html">HERE</a> to learn more about my accomplishments.</p>
+            <img src="BPRP.png">
           </ul>
         </div>
 
         </ul>
       </div>
     </div>
-  </div>
-  </div>
 
-  <div class="side-bar">
-    <img src="./Images/menu.png" class="menu">
-    <div class="social-links">
-      <img src="./Images/fb.png">
-      <img src="./Images/ig.png">
-      <img src="./Images/tw.png">
-    </div>
-    <div class="Useful-links">
-      <img src="./Images/share.png">
-      <img src="./Images/info.png">
-    </div>
   </div>
   <style>
     :root {
@@ -118,87 +163,130 @@
     }
 
     h2 {
-      font-size: 36px;
+      font-size: 45px;
       text-align: center;
 
     }
 
     .card {
-      width: 80%;
-      max-width: 800px;
+      width: 100%;
+      max-width: 1000px;
       margin: 0 auto;
       background-color: white;
       color: #000000;
-      border-radius: 5px;
+      border-radius: 25px;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       text-align: left;
-      padding: 30px;
-      background-color: #c7f9cc;
+      padding: 40px;
+      background-color: #ead2ac;
       opacity: 0.9;
     }
 
     .hero {
-      height: 175vh;
+      height: 700vh;
       margin: auto;
-      background-image: url(https://4kwallpapers.com/images/wallpapers/3d-background-7680x4320-9771.jpg);
       background-position: center;
       position: relative;
       overflow: hidden;
+      font-size: 20px;
+
     }
 
     .logo {
-      width: 80px;
-      height: 80px;
+      width: 130px;
+      height: 140px;
       margin: left;
       cursor: pointer;
     }
 
+
+
     .navbar {
-      width: 85%;
-      margin: auto;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 10px;
       display: flex;
       align-items: center;
       justify-content: space-between;
+      z-index: 3;
+      /* Add z-index to bring the navbar to the front */
     }
 
-    button {
+    .back-button-container {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 4;
+      /* Add z-index to bring the button container to the front */
+    }
+
+    .back-button {
+      padding: 15px 30px;
+      font-size: 25px;
       color: #fbfcfd;
-      padding: 10px 25px;
       background: transparent;
       border: 1px solid #fff;
       border-radius: 20px;
       outline: none;
       cursor: pointer;
+      opacity: 0.9;
     }
+
+    .back-button:hover {
+      opacity: 1.5;
+    }
+
+    button {
+      padding: 15px 30px;
+      /* Increase the padding as desired */
+      font-size: 25px;
+      /* Increase the font size as desired */
+      color: #fbfcfd;
+      padding: 10px 30px;
+      background: transparent;
+      border: 1px solid #fff;
+      border-radius: 20px;
+      outline: none;
+      cursor: pointer;
+      opacity: 0.9;
+    }
+
+    button:hover {
+      opacity: 1.5;
+    }
+
+
+
+
+
+
+
+
 
     .content {
       color: #fbfcfd;
       position: absolute;
-      top: 2%;
+      top: 12%;
       left: 50%;
       transform: translateX(-50%) translateY(-50%);
       z-index: 2;
       text-align: center;
       max-width: 800px;
       width: 90%;
+
     }
 
     h1 {
-      font-size: 48px;
+      font-size: 80px;
       margin: 5px 0 15px;
       line-height: 60px;
       color: #ffffff;
       opacity: 1.5;
     }
 
-    .side-bar {
-      width: 50px;
-      height: 100vh;
-      background: linear-gradient(#00545d, #000729);
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
+
 
     .menu {
       display: block;
@@ -207,27 +295,7 @@
       cursor: pointer;
     }
 
-    .social-links img,
-    .useful-links img {
-      width: 25px;
-      margin: 5px auto;
-      cursor: pointer;
-    }
 
-    .social-links {
-      width: 50px;
-      text-align: center;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-
-    .useful-links {
-      width: 50px;
-      text-align: center;
-      position: absolute;
-      bottom: 30px;
-    }
 
     @media screen and (max-width: 768px) {
       .content-container {

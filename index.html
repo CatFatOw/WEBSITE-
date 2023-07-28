@@ -3,50 +3,38 @@
 
 <head>
   <title>Website Page Design</title>
+  <link rel="stylesheet" href="s2.css">
 </head>
 
 <body>
+  </div>
+  <div class="bg"></div>
+  <div class="bg bg2"></div>
+  <div class="bg bg3"></div>
+  <div class="content">
+  </div>
   <div class="hero">
-    <div class="parallax-background"></div>
+
     <div class="navbar">
       <a href="https://idahofallstigers.org/">
         <img src="./Images/IF.png" class="logo">
       </a>
 
 
-      <a href="take a tour.html"><button type="button"> Take A Tour </button></a>
+      <a href="take a tour.html"><button type="button"> About Me </button></a>
     </div>
     <div class="content">
-      <small>Welcome To My</small>
-      <h1>Personal<br>Website</br></h1>
+      <big>Welcome To </big>
+      <h1>Michael Wu's<br>Website</br></h1>
     </div>
 
 
-    <div class="side-bar">
-      <img src="./Images/menu.png" class="menu">
 
 
-      <div class="social-links">
-        <img src="./Images/fb.png">
-        <img src="./Images/ig.png">
-        <img src="./Images/tw.png">
-      </div>
 
-      <div class="Useful-links">
-        <img src="./Images/share.png">
-        <img src="./Images/info.png">
-      </div>
-    </div>
-    <div class="bubbles">
-      <img src="./Images/bprp.jpg">
-      <img src="./Images/bprp.jpg">
-      <img src="./Images/bprp.jpg">
-      <img src="./Images/bprp.jpg">
-      <img src="./Images/bprp.jpg">
-      <img src="./Images/bprp.jpg">
-      <img src="./Images/bprp.jpg">
-    </div>
+
   </div>
+
 
   <style>
     .vt {
@@ -64,23 +52,24 @@
     .hero {
       width: 100%;
       height: 100vh;
-      background-image: url(./Images/Nubula.jpg);
       background-size: cover;
       background-position: center;
       position: relative;
       overflow: hidden;
+      margin: 0;
+      /* Add this line to remove default margin */
     }
 
     .logo {
-      width: 80px;
-      height: 80px;
+      width: 130px;
+      height: 140px;
       margin: left;
       cursor: pointer;
-      opacity: 0.8;
+      opacity: 0.85;
     }
 
     .logo:hover {
-      opacity: 1.2;
+      opacity: 1.5;
     }
 
     .navbar {
@@ -90,9 +79,15 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+
     }
 
+
     button {
+      padding: 15px 30px;
+      /* Increase the padding as desired */
+      font-size: 25px;
+      /* Increase the font size as desired */
       color: #fbfcfd;
       padding: 10px 25px;
       background: transparent;
@@ -100,11 +95,11 @@
       border-radius: 20px;
       outline: none;
       cursor: pointer;
-      opacity: 0.8;
+      opacity: 0.9;
     }
 
     button:hover {
-      opacity: 1.2;
+      opacity: 1.5;
     }
 
 
@@ -125,14 +120,7 @@
       line-height: 80px;
     }
 
-    .side-bar {
-      width: 50px;
-      height: 100vh;
-      background: linear-gradient(#00545d, #000729);
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
+
 
     .menu {
       display: block;
@@ -141,27 +129,7 @@
       cursor: pointer;
     }
 
-    .social-links img,
-    .useful-links img {
-      width: 25px;
-      margin: 5px auto;
-      cursor: pointer;
-    }
 
-    .social-links {
-      width: 50px;
-      text-align: center;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-
-    .useful-links {
-      width: 50px;
-      text-align: center;
-      position: absolute;
-      bottom: 30px;
-    }
 
     .bubbles img {
       width: 50px;
